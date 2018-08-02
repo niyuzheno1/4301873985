@@ -1,0 +1,5 @@
+Run These 
+
+sudo click printer.click dev=veth2 in_addr=192.168.1.1 out_addr=192.168.1.2 in_port=10001 out_port=10002 in_mac=32:d9:0f:26:94:0e out_mac=1a:57:3e:40:72:ec
+
+sudo click printer.click dev=veth1 in_addr=192.168.1.2 out_addr=192.168.1.1 in_port=10002 out_port=10001 in_mac=1a:57:3e:40:72:ec out_mac=32:d9:0f:26:94:0e
